@@ -6,7 +6,7 @@
 package fault
 
 import (
-	"github.com/jackwhelpton/fasthttp-routing"
+	"github.com/nantomarioni/fasthttp-routing"
 	"github.com/valyala/fasthttp"
 )
 
@@ -22,8 +22,8 @@ import (
 //
 //     import (
 //         "log"
-//         "github.com/jackwhelpton/fasthttp-routing"
-//         "github.com/jackwhelpton/fasthttp-routing/fault"
+//         "github.com/nantomarioni/fasthttp-routing"
+//         "github.com/nantomarioni/fasthttp-routing/fault"
 //     )
 //
 //     r := routing.New()

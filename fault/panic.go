@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/jackwhelpton/fasthttp-routing"
+	"github.com/nantomarioni/fasthttp-routing"
 )
 
 // PanicHandler returns a handler that recovers from panics happened in the handlers following this one.
@@ -16,8 +16,8 @@ import (
 //
 //     import (
 //         "log"
-//         "github.com/jackwhelpton/fasthttp-routing"
-//         "github.com/jackwhelpton/fasthttp-routing/fault"
+//         "github.com/nantomarioni/fasthttp-routing"
+//         "github.com/nantomarioni/fasthttp-routing/fault"
 //     )
 //
 //     r := routing.New()

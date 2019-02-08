@@ -8,7 +8,7 @@ package slash
 import (
 	"strings"
 
-	"github.com/jackwhelpton/fasthttp-routing"
+	"github.com/nantomarioni/fasthttp-routing"
 	"github.com/valyala/fasthttp"
 )
 
@@ -20,8 +20,8 @@ import (
 // If the original URL has no trailing slash, the handler will do nothing. For example,
 //
 //     import (
-//         "github.com/jackwhelpton/fasthttp-routing"
-//         "github.com/jackwhelpton/fasthttp-routing/slash"
+//         "github.com/nantomarioni/fasthttp-routing"
+//         "github.com/nantomarioni/fasthttp-routing/slash"
 //         "github.com/valyala/fasthttp"
 //     )
 //

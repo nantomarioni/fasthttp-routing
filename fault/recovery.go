@@ -5,7 +5,7 @@
 // Package fault provides a panic and error handler for the ozzo routing package.
 package fault
 
-import "github.com/jackwhelpton/fasthttp-routing"
+import "github.com/nantomarioni/fasthttp-routing"
 
 type (
 	// LogFunc logs a message using the given format and optional arguments.
@@ -32,8 +32,8 @@ type (
 //
 //     import (
 //         "log"
-//         "github.com/jackwhelpton/fasthttp-routing"
-//         "github.com/jackwhelpton/fasthttp-routing/fault"
+//         "github.com/nantomarioni/fasthttp-routing"
+//         "github.com/nantomarioni/fasthttp-routing/fault"
 //     )
 //
 //     r := routing.New()

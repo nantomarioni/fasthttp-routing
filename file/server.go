@@ -11,7 +11,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/jackwhelpton/fasthttp-routing"
+	"github.com/nantomarioni/fasthttp-routing"
 	"github.com/valyala/fasthttp"
 )
 
@@ -57,8 +57,8 @@ func init() {
 //
 //     import (
 //         "log"
-//         "github.com/jackwhelpton/fasthttp-routing"
-//         "github.com/jackwhelpton/fasthttp-routing/file"
+//         "github.com/nantomarioni/fasthttp-routing"
+//         "github.com/nantomarioni/fasthttp-routing/file"
 //     )
 //
 //     r := routing.New()
